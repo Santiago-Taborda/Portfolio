@@ -63,7 +63,7 @@ jobs:
         working-directory: portfolio
 
       - name: Build con Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        run: ${{ steps.detect-package-manager.outputs.runner }} next build && ${{ steps.detect-package-manager.outputs.runner }} next export
         working-directory: portfolio
 
       - name: Subir artefacto
