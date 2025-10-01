@@ -31,7 +31,6 @@ jobs:
     steps:
       - name: Detectar gestor de paquetes
         id: detect-package-manager
-        working-directory: portfolio
         run: |
           if [ -f "yarn.lock" ]; then
             echo "manager=yarn" >> $GITHUB_OUTPUT
