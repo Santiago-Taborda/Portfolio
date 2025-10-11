@@ -11,18 +11,22 @@ const Proyect = (proyectInfo) => {
           <div className="relative w-full aspect-video">
             <Image src={image} alt={name} fill style={{ objectFit: "contain" }} priority unoptimized />
           </div>
-          <h2 className="w-fill text-center text-xl font-bold mb-2">{name}</h2>
+          <div className="flex flex-col px-[33%] hover:px-[25%] transition-[padding] duration-300 ease-in-out">
+            <div className="h-1 bg-foreground/90 mt-2" />
+            <h2 className="w-fill text-center text-xl text-nowrap font-bold mb-0.5 mx-1">{name}</h2>
+            <div className="h-1 bg-foreground/90" />
+          </div>
         </Link>
         <div className="flex flex-col p-[3%]">
           <p className="text-sm mb-4">{description}</p>
           <div className="flex justify-between">
             {link && (
               <Link href={link} className="text-blue-500 hover:underline">
-                Live Demo
+                Visitar
               </Link>
             )}
             <Link href={github} className="text-blue-500 hover:underline">
-              GitHub
+              Repositorio
             </Link>
           </div>
         </div>

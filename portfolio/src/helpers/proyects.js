@@ -5,7 +5,7 @@ import three from "../../public/three.png";
 const proyects = [
   {
     id: 1,
-    name: "Spotify covers",
+    name: "SpotiCovers",
     description: "Descarga las portadas de tus playlists y albums favoritos de Spotify",
     image: one,
     link: "https://Santiago-Taborda.github.io/Spotify_covers",
