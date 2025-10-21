@@ -5,8 +5,8 @@ import githubLight from "../../public/githubLight.png";
 import githubDark from "../../public/githubDark.png";
 import linkedinLight from "../../public/linkedinLight.png";
 import linkedinDark from "../../public/linkedinDark.png";
-import proyectList from "@/helpers/ProyectList";
-import Proyect from "@/components/Proyect";
+import proyectList from "@/helpers/proyectList.js";
+import Proyect from "@/components/proyect.js";
 
 export default function Home() {
   return (

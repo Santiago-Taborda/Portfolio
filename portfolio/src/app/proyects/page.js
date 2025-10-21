@@ -1,5 +1,5 @@
-import Proyect from "@/components/Proyect";
-import proyectList from "@/helpers/ProyectList";
+import Proyect from "@/components/proyect.js";
+import proyectList from "@/helpers/proyectList.js";
 
 const Proyects = () => {
   return (
