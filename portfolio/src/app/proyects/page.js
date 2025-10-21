@@ -1,4 +1,4 @@
-import Proyect from "@/components/proyect.js";
+import Proyect from "@/components/Proyect.js";
 import proyectList from "@/helpers/proyectList.js";
 
 const Proyects = () => {
