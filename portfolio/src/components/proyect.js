@@ -7,14 +7,14 @@ const Proyect = (proyectInfo) => {
     <div className="flex flex-1 m-4">
       <div className="w-full rounded-md hover:scale-105 transition-transform duration-300 ease-in-out bg-background shadow-[0_0px_18px_-5px_#111214] dark:shadow-[0_0px_18px_-5px_#f3f3f3]">
         <div className="w-full h-1.5 rounded-t-md bg-black dark:bg-white" />
-        <Link href={`/proyect/${id}`} className="block">
+        <Link href={`/proyects/${id}`} className="block">
           <div className="relative w-full aspect-video">
             <Image src={image} alt={name} fill style={{ objectFit: "contain" }} priority unoptimized />
           </div>
-          <div className="flex flex-col px-[33%] hover:px-[25%] transition-[padding] duration-300 ease-in-out">
-            <div className="h-1 bg-foreground/90 mt-2" />
+          <div className="flex flex-col items-center px-[25%] hover:px-[15%] lg:px-[33%] lg:hover:px-[25%] transition-[padding] duration-300 ease-in-out">
+            <div className="h-1 bg-foreground/90 mt-2 w-full" />
             <h2 className="w-fill text-center text-xl text-nowrap font-bold mb-0.5 mx-1">{name}</h2>
-            <div className="h-1 bg-foreground/90" />
+            <div className="h-1 bg-foreground/90 w-full" />
           </div>
         </Link>
         <div className="flex flex-col p-[3%]">

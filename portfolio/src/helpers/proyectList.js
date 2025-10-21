@@ -2,7 +2,7 @@ import one from "../../public/one.png";
 import two from "../../public/two.png";
 import three from "../../public/three.png";
 
-const proyects = [
+const proyectList = [
   {
     id: 1,
     name: "SpotiCovers",
@@ -28,4 +28,4 @@ const proyects = [
   },
 ];
 
-export default proyects;
+export default proyectList;
