@@ -6,7 +6,7 @@ import githubDark from "../../public/githubDark.png";
 import linkedinLight from "../../public/linkedinLight.png";
 import linkedinDark from "../../public/linkedinDark.png";
 import proyectList from "../helpers/proyectList";
-import Proyect from "../components/proyect";
+import ProyectCard from "../components/proyectCard";
 
 export default function Home() {
   return (
@@ -40,7 +40,7 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-2 sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%]">
         {proyectList.map((proyect) => (
-          <Proyect key={proyect.id} {...proyect} />
+          <ProyectCard key={proyect.id} {...proyect} />
         ))}
       </div>
     </div>
