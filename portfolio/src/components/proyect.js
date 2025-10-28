@@ -46,17 +46,17 @@ const Proyect = (user) => {
             {!logoDark && (
               <>
                 <div className="relative h-10 aspect-square">
-                  <Image src={logo} alt="siteLight" fill style={{ objectFit: "contain" }} priority unoptimized />
+                  <Image src={logo} alt="siteLight" fill style={{ objectFit: "contain" }} priority />
                 </div>
               </>
             )}
             {logoDark && (
               <>
                 <div className="relative h-10 aspect-square dark:hidden">
-                  <Image src={logo} alt="siteLight" fill style={{ objectFit: "contain" }} priority unoptimized />
+                  <Image src={logo} alt="siteLight" fill style={{ objectFit: "contain" }} priority />
                 </div>
                 <div className="relative h-10 aspect-square hidden dark:block">
-                  <Image src={logoDark} alt="siteDark" fill style={{ objectFit: "contain" }} priority unoptimized />
+                  <Image src={logoDark} alt="siteDark" fill style={{ objectFit: "contain" }} priority />
                 </div>
               </>
             )}
@@ -65,10 +65,10 @@ const Proyect = (user) => {
         )}
         <Link href={github} className="flex justify-center items-center">
           <div className="relative h-10 aspect-square dark:hidden">
-            <Image src={githubLight} alt="githubLight" fill style={{ objectFit: "contain" }} priority unoptimized />
+            <Image src={githubLight} alt="githubLight" fill style={{ objectFit: "contain" }} priority />
           </div>
           <div className="relative h-10 aspect-square hidden dark:block">
-            <Image src={githubDark} alt="githubDark" fill style={{ objectFit: "contain" }} priority unoptimized />
+            <Image src={githubDark} alt="githubDark" fill style={{ objectFit: "contain" }} priority />
           </div>
           <p className="font-sans hover:underline pl-1">Ver repositorio</p>
         </Link>
