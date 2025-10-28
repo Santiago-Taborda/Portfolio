@@ -17,7 +17,7 @@ export default function Home() {
       <div className="w-40 h-1 bg-foreground/90 mb-4" />
 
       <p className="text-center sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%]">
-        ¡Qué tal! Soy Santiago Taborda, un desarrollador web Full-Stack, viviendo actualmente en Córdoba, Argentina,he decidido
+        ¡Qué tal! Soy Santiago Taborda, un desarrollador web Full-Stack, viviendo actualmente en Córdoba, Argentina, he decidido
         dedicarme a la programación, ya que la rama de TI siempre me llama la atención. Por lo cual he realizado varios
         proyectos aplicando tecnologías como TypeScript, Next.js, React, Vite, Tailwind y enfocándome en cosas como UX y UI.
       </p>
